@@ -10,10 +10,8 @@ DB_HOST = "localhost"
 DB_PORT = "3306"  
 
 file_path = "test_sample.csv"
-# Розмір порції
 chunksize = 2000
 
-# Список відомих платформ (якщо хочете фільтрувати)
 KNOWN_PLATFORMS = [
     "instagram", "facebook", "youtube", "tiktok",
     "twitter", "telegram", "vkontakte", "reddit"
